@@ -52,6 +52,7 @@ const employees = [
  function adjustingObjects( object ){
    const newList = {
      name: object.name,
+     
      }
      return newList
    }
