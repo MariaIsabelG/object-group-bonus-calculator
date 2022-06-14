@@ -45,9 +45,36 @@ const employees = [
 
   for (let i = 0; i < employees.length; i++) {
     console.log( employees[i] );
+    adjustingObjects( employees[i] )
   };
 
-  
-  
+
+ function adjustingObjects( object ){
+   const newList = {
+     name: object.name,
+     }
+     return newList
+   }
+//  }
+
+adjustingObjects(1);
 
 
+
+  function newEmployee(){
+    if (employees[i].reviewRating === 5) {
+    }return employees[i]
+    //  else if () {
+      
+    // }
+  }
+  
+  // console.log( newEmployee );
+  
+
+// newEmployee( name.malayal )
+// newEmployee( name.Robert )
+// newEmployee(  name. )
+// newEmployee(  )
+
+// Let exampleEmployee = newEmployee;
