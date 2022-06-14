@@ -39,4 +39,15 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log( employees );
+//loop through employee array
+//create a function to loop through the employee array and 
+
+
+  for (let i = 0; i < employees.length; i++) {
+    console.log( employees[i] );
+  };
+
+  
+  
+
+
