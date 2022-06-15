@@ -43,32 +43,62 @@ const employees = [
 //create a function to loop through the employee array and 
 
 
-  for (let i = 0; i < employees.length; i++) {
-    console.log( employees[i] );
-    adjustingObjects( employees[i] )
-  };
+//   for (let i = 0; i < employees.length; i++) {
+//     console.log( employees[i] );
+//     adjustingObjects( employees[i] )
+//   };
 
+// // funtion to create a new object 
+//  function adjustingObjects( object ){
+//    const newList = {
+//      name: object.name,
+//      bonusPercentage: calBonus,
+//      }
+//      return newList
+//    }
+// //  }
 
- function adjustingObjects( object ){
-   const newList = {
-     name: object.name,
-     
-     }
-     return newList
-   }
-//  }
+// function to calculate bonus
+let bonus = 0;
+function calBonus( array ){
+  for ( [i] of array ){
+    let rating = array.reviewRating;
+  if ( rating === 3 ){
+    bonus = array.annualSalary * 0.040;
+    console.log( 'Review of 3' );
+  }else if( rating === 4 ){
+    bonus = array.annualSalary * .060;
+    console.log( 'Review of 4' );
+  }else if( rating === 5 ){
+    bonus = array.annualSalary * 0.10;
+    console.log( 'Review of 5' );
+  }else( console.log( 'No bonus' ));
+}
+  return bonus
+}
 
-adjustingObjects(1);
+// loop(  employees );
 
+// function loop ( array ) {
+//   for ( i=0; i<array.length; i++ ){
+//   // if ( i.reviewRating = 3 )
+// console.log ( [i] );
+//   if ( i=== 3 ) {
+//     console.log ( [i],'we found aticus!' );
+    
+//   }
+// }
+// }
 
+// console.log ( employees[0].reviewRating );
 
-  function newEmployee(){
-    if (employees[i].reviewRating === 5) {
-    }return employees[i]
-    //  else if () {
+  // function newEmployee(){
+  //   if (employees[i].reviewRating === 5) {
+  //   }return employees[i]
+  //   //  else if () {
       
-    // }
-  }
+  //   // }
+  // }
   
   // console.log( newEmployee );
   
